@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ExofilmEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ExofilmWEB.war" deploy-path="/" handle="module:/resource/ExofilmWEB/ExofilmWEB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ExofilmEJB.jar" deploy-path="/" handle="module:/resource/ExofilmEJB/ExofilmEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ExofilmModel.jar" deploy-path="/lib" handle="module:/resource/ExofilmModel/ExofilmModel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ExofilmDB.jar" deploy-path="/lib" handle="module:/resource/ExofilmDB/ExofilmDB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ExofilmREST.war" deploy-path="/" handle="module:/resource/ExofilmREST/ExofilmREST">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
